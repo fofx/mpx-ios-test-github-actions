@@ -4,7 +4,6 @@ on:
   push:
     branches: [ "develop" ]
   workflow_dispatch:
-name: "Build iOS app"
 
 jobs:
   build_with_signing:
